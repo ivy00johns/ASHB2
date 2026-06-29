@@ -1,0 +1,22 @@
+* Entities
+  * faire les mouvements
+    * faire répulsion si malade
+    - faire un bloc dans la map pou pas que les entités dépassent
+
+  * faire heal
+  - faire la creation de joueur par le gui
+  * faire un 2e graphes pour les actions
+  * faire lien arbre généalogique
+  * faire les logs
+  - remplacer les string par des ID et avoir un fichier dictionnaire qui référence tout
+
+AMÉLIORATION DE L'IA
+  * implémenter toute les nouvelles features,
+      * implémenter les 2 nouvelles fonctions pour attachmentStyle
+  * implémenter la norme social
+  - implémenter plus de goals
+
+make breeding a bit less easier also try to log in Recent events part everything really important
+Upgrade the report system showing everything that is important and have a big summary about the simulation
+add wars between tribes (ethnic wars, or hate wars something like that) that affects the society (economy, couples, breeding, death...)
+all babies born at the same time they dont appear normally

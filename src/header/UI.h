@@ -1,0 +1,52 @@
+#ifndef UI_H
+#define UI_H
+
+#include <GLFW/glfw3.h>
+#include <imgui.h>
+#include <imgui_impl_glfw.h>
+#include <imgui_impl_opengl3.h>
+#include <string>
+#include <vector>
+#include <deque>
+#include <map>
+#include <filesystem>
+
+// Forward declaration of Entity
+class Entity;
+
+class UI {
+private:
+    bool showDetailedInfo = false;
+    bool showActionInfo = false;
+public:
+    struct GridPoint {
+        int id;
+        ImVec2 pos;
+        bool selected = false;
+    };
+
+    void ShowEntityWindow(Entity* entity, bool* p_open, std::vector<Entity*> entities);
+    void DrawGrid(std::vector<Entity*>& entities, float pointSize = 8.0f);
+    int HandlePointMovement(std::vector<Entity*>& entities);
+    void createPlayer(int& health, float& attackPower, char* playerName, char* message, std::string& displayText);
+
+    // Social network board replacing the spatial dot grid
+    int ShowMindBoard(std::vector<Entity*>& entities);
+
+    // Civilization overview panel
+    void ShowCivilizationPanel(int simDay);
+
+    // Supply & demand market panel
+    void ShowMarketPanel();
+
+    bool isSimulationPaused() const { return simulationPaused; }
+    GridPoint getGridPoint();
+    // Returns: 0=nothing, 1=save pressed, 2=load pressed
+    int showSaveLoadButtons(std::string& filename, int day, int num_entity, int tick, std::map<std::string, int> complementary_information);
+private:
+    char saveLoadFilename[256] = "savegame.txt";
+    bool simulationPaused = false;
+    GridPoint gridPoint;
+};
+
+#endif // UI_H
