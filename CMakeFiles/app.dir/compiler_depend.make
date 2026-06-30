@@ -128,7 +128,6 @@ CMakeFiles/app.dir/libs/imgui/backends/imgui_impl_glfw.cpp.obj: libs/imgui/backe
   C:/mingw64/x86_64-w64-mingw32/include/_bsd_types.h \
   C:/mingw64/x86_64-w64-mingw32/include/_mingw.h \
   C:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
   C:/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
   C:/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
   C:/mingw64/x86_64-w64-mingw32/include/_mingw_unicode.h \
@@ -145,7 +144,6 @@ CMakeFiles/app.dir/libs/imgui/backends/imgui_impl_glfw.cpp.obj: libs/imgui/backe
   C:/mingw64/x86_64-w64-mingw32/include/commdlg.h \
   C:/mingw64/x86_64-w64-mingw32/include/concurrencysal.h \
   C:/mingw64/x86_64-w64-mingw32/include/corecrt.h \
-  C:/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
   C:/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
   C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
   C:/mingw64/x86_64-w64-mingw32/include/ctype.h \
@@ -233,7 +231,6 @@ CMakeFiles/app.dir/libs/imgui/backends/imgui_impl_glfw.cpp.obj: libs/imgui/backe
   C:/mingw64/x86_64-w64-mingw32/include/sal.h \
   C:/mingw64/x86_64-w64-mingw32/include/sdkddkver.h \
   C:/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
   C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
   C:/mingw64/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
   C:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
@@ -245,12 +242,10 @@ CMakeFiles/app.dir/libs/imgui/backends/imgui_impl_glfw.cpp.obj: libs/imgui/backe
   C:/mingw64/x86_64-w64-mingw32/include/stdarg.h \
   C:/mingw64/x86_64-w64-mingw32/include/stddef.h \
   C:/mingw64/x86_64-w64-mingw32/include/stdint.h \
-  C:/mingw64/x86_64-w64-mingw32/include/stdio.h \
   C:/mingw64/x86_64-w64-mingw32/include/stdlib.h \
   C:/mingw64/x86_64-w64-mingw32/include/stralign.h \
   C:/mingw64/x86_64-w64-mingw32/include/string.h \
   C:/mingw64/x86_64-w64-mingw32/include/stringapiset.h \
-  C:/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
   C:/mingw64/x86_64-w64-mingw32/include/synchapi.h \
   C:/mingw64/x86_64-w64-mingw32/include/sysinfoapi.h \
   C:/mingw64/x86_64-w64-mingw32/include/systemtopologyapi.h \
@@ -915,7 +910,6 @@ CMakeFiles/app.dir/libs/imgui/imgui_draw.cpp.obj: libs/imgui/imgui_draw.cpp \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/smmintrin.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tbmintrin.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tmmintrin.h \
@@ -955,7 +949,6 @@ CMakeFiles/app.dir/libs/imgui/imgui_draw.cpp.obj: libs/imgui/imgui_draw.cpp \
   C:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
   C:/mingw64/x86_64-w64-mingw32/include/stdarg.h \
   C:/mingw64/x86_64-w64-mingw32/include/stddef.h \
-  C:/mingw64/x86_64-w64-mingw32/include/stdint.h \
   C:/mingw64/x86_64-w64-mingw32/include/stdio.h \
   C:/mingw64/x86_64-w64-mingw32/include/stdlib.h \
   C:/mingw64/x86_64-w64-mingw32/include/string.h \
@@ -11622,6 +11615,12 @@ src/Economics.cpp:
 
 src/header/Disease.h:
 
+C:/mingw64/x86_64-w64-mingw32/include/unknwnbase.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/unknwn.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/tvout.h:
+
 C:/mingw64/x86_64-w64-mingw32/include/timezoneapi.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/rpcnsi.h:
@@ -11629,12 +11628,6 @@ C:/mingw64/x86_64-w64-mingw32/include/rpcnsi.h:
 C:/mingw64/include/c++/14.2.0/fstream:
 
 C:/mingw64/x86_64-w64-mingw32/include/synchapi.h:
-
-C:/mingw64/x86_64-w64-mingw32/include/swprintf.inl:
-
-libs/SDL2/include/SDL2/SDL_rect.h:
-
-libs/imgui/imgui.h:
 
 C:/mingw64/include/c++/14.2.0/bits/fs_ops.h:
 
@@ -11672,6 +11665,8 @@ C:/mingw64/include/c++/14.2.0/bits/this_thread_sleep.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/rpcdcep.h:
 
+C:/mingw64/x86_64-w64-mingw32/include/urlmon.h:
+
 C:/mingw64/x86_64-w64-mingw32/include/rpcdce.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vp2intersectintrin.h:
@@ -11694,13 +11689,13 @@ C:/mingw64/x86_64-w64-mingw32/include/propidl.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/profileapi.h:
 
-C:/mingw64/x86_64-w64-mingw32/include/processtopologyapi.h:
-
 C:/mingw64/x86_64-w64-mingw32/include/psdk_inc/_wsa_errnos.h:
 
 C:/mingw64/include/c++/14.2.0/mutex:
 
 C:/mingw64/x86_64-w64-mingw32/include/psdk_inc/_ip_types.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/processtopologyapi.h:
 
 src/world/ResourceSystem.cpp:
 
@@ -11800,6 +11795,12 @@ C:/mingw64/x86_64-w64-mingw32/include/heapapi.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/debugapi.h:
 
+C:/mingw64/x86_64-w64-mingw32/include/handleapi.h:
+
+C:/mingw64/include/c++/14.2.0/bits/deque.tcc:
+
+C:/mingw64/include/c++/14.2.0/pstl/pstl_config.h:
+
 src/LearningAdaptation.cpp:
 
 C:/mingw64/x86_64-w64-mingw32/include/psdk_inc/_xmitfile.h:
@@ -11838,8 +11839,6 @@ C:/mingw64/x86_64-w64-mingw32/include/datetimeapi.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h:
 
-C:/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h:
-
 C:/mingw64/include/c++/14.2.0/ratio:
 
 C:/mingw64/x86_64-w64-mingw32/include/concurrencysal.h:
@@ -11864,18 +11863,6 @@ src/header/LifeCourse.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/cguid.h:
 
-C:/mingw64/x86_64-w64-mingw32/include/handleapi.h:
-
-C:/mingw64/include/c++/14.2.0/bits/deque.tcc:
-
-C:/mingw64/include/c++/14.2.0/pstl/pstl_config.h:
-
-C:/mingw64/include/c++/14.2.0/bits/list.tcc:
-
-C:/mingw64/x86_64-w64-mingw32/include/objbase.h:
-
-C:/mingw64/include/c++/14.2.0/bits/stl_tree.h:
-
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniintrin.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/fibersapi.h:
@@ -11885,6 +11872,12 @@ C:/mingw64/x86_64-w64-mingw32/include/winver.h:
 C:/mingw64/include/c++/14.2.0/bits/stl_multimap.h:
 
 C:/mingw64/include/c++/14.2.0/bits/uses_allocator.h:
+
+libs/SDL2/include/SDL2/SDL_rect.h:
+
+libs/imgui/imgui.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/swprintf.inl:
 
 C:/mingw64/x86_64-w64-mingw32/include/GL/gl.h:
 
@@ -12003,12 +11996,6 @@ C:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h:
 C:/mingw64/x86_64-w64-mingw32/include/wctype.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512ifmaintrin.h:
-
-src/main.cpp:
-
-C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h:
-
-C:/mingw64/x86_64-w64-mingw32/include/wincon.h:
 
 C:/mingw64/include/c++/14.2.0/numeric:
 
@@ -12212,6 +12199,8 @@ C:/mingw64/include/c++/14.2.0/bits/alloc_traits.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/prfchiintrin.h:
 
+C:/mingw64/x86_64-w64-mingw32/include/utilapiset.h:
+
 C:/mingw64/x86_64-w64-mingw32/include/errhandlingapi.h:
 
 C:/mingw64/include/c++/14.2.0/new:
@@ -12258,6 +12247,10 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/x86intrin.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/sys/timeb.h:
 
+C:/mingw64/include/c++/14.2.0/vector:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vnniintrin.h:
+
 C:/mingw64/x86_64-w64-mingw32/include/securitybaseapi.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/movdirintrin.h:
@@ -12289,20 +12282,6 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveoptintrin.h:
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/f16cintrin.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavesintrin.h:
-
-C:/mingw64/x86_64-w64-mingw32/include/tvout.h:
-
-C:/mingw64/x86_64-w64-mingw32/include/unknwn.h:
-
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vnniintrin.h:
-
-C:/mingw64/include/c++/14.2.0/vector:
-
-C:/mingw64/x86_64-w64-mingw32/include/unknwnbase.h:
-
-C:/mingw64/x86_64-w64-mingw32/include/urlmon.h:
-
-C:/mingw64/x86_64-w64-mingw32/include/utilapiset.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tsxldtrkintrin.h:
 
@@ -12365,6 +12344,20 @@ libs/imgui/backends/imgui_impl_glfw.h:
 C:/mingw64/include/c++/14.2.0/bits/vector.tcc:
 
 libs/imgui/backends/imgui_impl_opengl3.cpp:
+
+C:/mingw64/include/c++/14.2.0/bits/list.tcc:
+
+C:/mingw64/x86_64-w64-mingw32/include/objbase.h:
+
+C:/mingw64/include/c++/14.2.0/bits/stl_tree.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h:
+
+src/main.cpp:
+
+C:/mingw64/x86_64-w64-mingw32/include/wincon.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h:
 
 C:/mingw64/include/c++/14.2.0/bits/memoryfwd.h:
 
