@@ -11,7 +11,7 @@
 | Method | `repo-deep-dive` skill — parallel subagents reading live code + a research pass |
 | Grounding docs | `README.md`, `plans/alternate-earth.md`, `question.md` (author gap analysis), two auto-generated post-mortems in `plans/` |
 | Generated | 2026-07-01 |
-| Series size | 15 documents (~1,900 lines) |
+| Series size | 16 documents (~2,150 lines) |
 | Honesty note | Live code was the ground truth; where the plans/README oversold what runs, the code won — those discrepancies are flagged throughout. |
 
 ## Two audiences
@@ -19,7 +19,7 @@
 This deep dive is deliberately useful to **two** readers:
 
 - **The petri-dish-of-madness owner** — "how does ASHB2 line up, what's already integrated, what else can we learn." Served by [11-comparison-petri-dish.md](11-comparison-petri-dish.md), [12-convergence-analysis.md](12-convergence-analysis.md), [13-frontier-assessment.md](13-frontier-assessment.md).
-- **The original ASHB2 developer** — who asked for ideas on how to expand it. Served by [14-expansion-roadmap.md](14-expansion-roadmap.md), a phased plan in the author's own `alternate-earth.md` style.
+- **The original ASHB2 developer** — who asked for ideas on how to expand it. Served by two companion docs: [14-expansion-roadmap.md](14-expansion-roadmap.md), a phased *implementation* plan in the author's own `alternate-earth.md` style (depth — finish the machine), and [15-expansion-ideas.md](15-expansion-ideas.md), an *idea-level* menu of new frontiers (scope — where it could go).
 
 ## The document series
 
@@ -39,7 +39,8 @@ This deep dive is deliberately useful to **two** readers:
 | 11 | [comparison-petri-dish](11-comparison-petri-dish.md) | ASHB2 vs. petri-dish head-to-head + capability matrix | 72 |
 | 12 | [convergence-analysis](12-convergence-analysis.md) | The two-tier "hybrid brain"; what each lacks | 61 |
 | 13 | [frontier-assessment](13-frontier-assessment.md) | What's novel / table stakes; ranked "what to steal" backlog | 52 |
-| 14 | [expansion-roadmap](14-expansion-roadmap.md) | **For the ASHB2 author** — a phased plan to grow the sim | 254 |
+| 14 | [expansion-roadmap](14-expansion-roadmap.md) | **For the ASHB2 author** — a phased *implementation* plan (depth: finish the machine) | 254 |
+| 15 | [expansion-ideas](15-expansion-ideas.md) | **For the ASHB2 author** — an *idea-level* menu of new frontiers (scope: where it could go) | 236 |
 
 ## ASHB2 by the numbers
 
@@ -64,7 +65,7 @@ This deep dive is deliberately useful to **two** readers:
 ## Reading guide
 
 - **Just want the strategic answer** ("what can we learn"): read [11](11-comparison-petri-dish.md) → [13](13-frontier-assessment.md). The ranked backlog is the table in [13](13-frontier-assessment.md).
-- **Passing this back to the ASHB2 author:** [01](01-project-overview.md) for orientation, then [14-expansion-roadmap.md](14-expansion-roadmap.md).
+- **Passing this back to the ASHB2 author:** [01](01-project-overview.md) for orientation, then [14-expansion-roadmap.md](14-expansion-roadmap.md) (what to *finish*) and [15-expansion-ideas.md](15-expansion-ideas.md) (where to *go next*).
 - **Want to understand the machine:** [02](02-architecture.md) for the map, then the micro stack [03](03-entity-and-psychology.md)→[06](06-relationships-and-social-order.md), the macro/world stack [07](07-civilization-engine.md)→[08](08-world-and-environment.md), and runtime/infra [09](09-simulation-loop-and-rendering.md)→[10](10-infrastructure-and-postmortem.md).
 
 > **Scope note:** this is a **static** reference series (output target: `ASHB2/plans/ashb2_deepdive/`, no living-plan intake). To turn [13](13-frontier-assessment.md)'s backlog into tracked work items in petri-dish's `BUILD-PLAN.md`, run the `plan-intake` skill on that document later.
